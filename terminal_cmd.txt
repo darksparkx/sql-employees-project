@@ -1,0 +1,5 @@
+Run this on linux within the root folder to generate CSV files:
+
+"sudo mysql -D employees < MySQL/emp_by_gender.sql > output/emp_by_gender.csv |
+sudo mysql -D employees < MySQL/mvf_managers.sql > output/mvf_managers.csv |
+sudo mysql -D employees < MySQL/mvf_avg_salary.sql > output/mvf_avg_salary.csv"
