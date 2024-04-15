@@ -1,7 +1,7 @@
 /* a breakdown between the male and female employees 
 working in the company each year, starting from 1990 */
 
-/*CSV Output: output/employees_by_gender.csv*/
+/*CSV Output: output/emp_by_gender.csv*/
 SELECT 
     DATE_FORMAT(d.from_date,"%Y") AS calender_year,
     CASE
